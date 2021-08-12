@@ -6,7 +6,7 @@ namespace MarsRover.Tests
     public class MapParserShould
     {
         [Fact]
-        public void ReturnMap_GivenValidString() // TODO: what has not been setup correctly? doesn't show squiggly lines on errors or suggestions
+        public void ReturnMap_GivenValidString() 
         {
             var squares = new List<Square>
             {
